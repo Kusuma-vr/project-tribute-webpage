@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #DFF2EB;
+    min-height: 100vh;
+    border: 5px solid #041b0f;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #052e10;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    color: #052e10;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .image_container {
+    border-radius: 75%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+    
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  .biography_section {
+    margin: 50px 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  .biography_section h2 {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  .biography_section ul {
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  .biography_section li {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  
+  footer {
+    margin: 50px 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  footer p {
+    margin-bottom: 20px;
+    text-align: end;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 69, 18);
+  }
+  
